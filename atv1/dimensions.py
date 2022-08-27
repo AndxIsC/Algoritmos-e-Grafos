@@ -1,0 +1,13 @@
+
+# NÚMERO DE COLUNAS DA MATRIZ
+# RECEBE UMA MATRIZ COMO PARÂMETRO, E O TAMANHO (len) DA PRIMEIRA LINHA
+# CORRESPONDE A QUANTIDADE DE COLUNAS PRESENTES NA MATRIZ
+def numCols(matriz):
+    ncols = len(matriz[0])
+    return ncols
+
+# NÚMERO DE LINHAS NA MATRIZ 
+# RECEBE UMA MATRIZ COMO PARÂMETRO E RETORNA A QUANTIDADE DE LINHAS NA MATRIZ
+def numRows(matriz):
+    nrows = len(matriz)
+    return nrows
